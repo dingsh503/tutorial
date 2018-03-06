@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/rh_match_wrap"
+    android:layout_margin="@dimen/px_10">
+
+
+    <android.support.v7.widget.CardView
+        style="@style/rh_wrap"
+        app:cardBackgroundColor="@color/rhWhite"
+        app:cardCornerRadius="3dp">
+
+        <RelativeLayout style="@style/rh_wrap">
+
+
+            <ImageView
+                android:id="@+id/rv_show_new"
+                style="@style/rh_match"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_show_season"
+                style="@style/rh_wrap"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:text="KKKKKKKK"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_show_designer"
+                style="@style/rh_wrap"
+                android:layout_above="@id/tv_show_season"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/rhWhite"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
